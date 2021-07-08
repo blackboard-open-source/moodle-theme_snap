@@ -49,7 +49,6 @@ class login_alternative_methods implements \renderable {
 
         if (!empty($potentialidps)) {
             foreach ($potentialidps as $idp) {
-
                 $icon = $OUTPUT->image_url('i/permissions');
 
                 if (!empty($idp['iconurl'])) {
